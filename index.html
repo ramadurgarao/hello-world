@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>This is random quote generator</title>
+	<link rel="stylesheet" type="text/css" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+	<script type="text/javascript" src="./node_modules/jQuery/tmp/jquery.js"></script>
+	<script type="text/javascript" src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+	<link rel="stylesheet" type="text/css" href="./main.css">
+	<script type="text/javascript" src="./index.js"></script>
+</head>
+<body onLoad="domloaded()">
+	<div class="container">
+		<br/><br/>
+		<div class="well quote">
+			<blockquote>
+				<p id="quote_msg">
+					What we think, we become.
+				</p>
+				<footer id="quote_athr">Buddha</footer>
+			</blockquote>
+		</div>
+		<button id="tweetIt" type="button" class="btn btn-default">Tweet it..</button>
+		<button id="anotherQuote" type="button" class="btn btn-default"><span class="glyphicon glyphicon-refresh"></span></button>
+	</div>
+</body>
+</html>

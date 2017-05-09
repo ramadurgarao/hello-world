@@ -1,0 +1,15 @@
+{
+  "name": "rqgen",
+  "version": "1.0.0",
+  "description": "This is random quote generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ramadurgarao",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "jQuery": "^1.9.1"
+  }
+}

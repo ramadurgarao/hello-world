@@ -1,0 +1,11 @@
+#quote_msg,#quote_athr {
+  opacity:1;
+  -webkit-transition:opacity 1s;
+  transition : opacity 1s;
+  color:lightgreen;
+}
+body {
+  background-color: lightgreen;
+}
+
+
